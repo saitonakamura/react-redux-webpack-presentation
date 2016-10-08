@@ -1,15 +1,9 @@
-import React, { PropTypes } from 'react'
+import React, { PropTypes, Component } from 'react'
 import { connect } from 'react-redux'
 import 'semantic-ui-css/components/segment'
 import 'semantic-ui-css/components/menu'
-import HelloSlide from './slides/HelloSlide'
-import EndSlide from './slides/EndSlide'
-import { goToNextSlide, goToPrevSlide } from '../actions/index'
-
-const slides = [
-  <HelloSlide />,
-  <EndSlide />,
-]
+import slides from './slides/index'
+import { goToNextSlide, goToPrevSlide, setSlidesCount } from '../actions/index'
 
 const SlideStepper = ({ activeSlide, goToNextSlide, goToPrevSlide }) => {
   return (
@@ -31,6 +25,21 @@ SlideStepper.propTypes = {
   goToPrevSlide: PropTypes.func.isRequired,
 }
 
+class SlideStepperComplex extends Component {
+  componentDidMount() {
+    this.props.setSlidesCount(slides.length)
+  }
+  render() {
+    return (
+      <SlideStepper {...this.props} />
+    )
+  }
+}
+
+SlideStepperComplex.propTypes = {
+  setSlidesCount: PropTypes.func.isRequired,
+}
+
 export default connect(
     state => ({
       activeSlide: state.presentation.activeSlide
@@ -38,5 +47,6 @@ export default connect(
     dispatch => ({
       goToNextSlide: () => dispatch(goToNextSlide()),
       goToPrevSlide: () => dispatch(goToPrevSlide()),
+      setSlidesCount: (slidesCount) => dispatch(setSlidesCount(slidesCount)),
     })
-)(SlideStepper)
+)(SlideStepperComplex)

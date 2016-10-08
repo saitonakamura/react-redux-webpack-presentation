@@ -12,7 +12,7 @@ const App = (props) => (
       <SlideStepper />
     </div>
     <div className="four wide column">
-      {<DevTools />}
+      <DevTools />
     </div>
   </div>
 )
