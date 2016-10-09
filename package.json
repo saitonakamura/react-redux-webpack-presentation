@@ -13,6 +13,7 @@
     "classnames": "^2.2.5",
     "denormalizr": "^0.3.2",
     "isomorphic-fetch": "^2.2.1",
+    "mousetrap": "^1.6.0",
     "normalizr": "^2.2.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",

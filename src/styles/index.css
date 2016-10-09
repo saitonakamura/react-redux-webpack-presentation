@@ -1,3 +1,14 @@
-body {
+body div#root div {
   background-color: #1B1C1D;
+  font-size: 1.3rem;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif !important;
+}
+
+body div#root div h1,
+body div#root div h2,
+body div#root div h3,
+body div#root div h4,
+body div#root div h5,
+body div#root div h6 {
+  font-family: 'Segoe UI Light', Arial, Helvetica, sans-serif !important;
 }

@@ -8,10 +8,8 @@ import SlideStepper from './SlideStepper'
 
 const App = (props) => (
   <div className="ui sixteen column grid" style={{ height: '100vh' }}>
-    <div className="ten wide column">
+    <div className="sixteen wide column">
       <SlideStepper />
-    </div>
-    <div className="four wide column">
       <DevTools />
     </div>
   </div>

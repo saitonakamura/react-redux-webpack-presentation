@@ -35,7 +35,10 @@ if (module.hot) {
   module.hot.accept('./reducers/index', () => {
     store.replaceReducer(require('./reducers/index').default)
   })
-  module.hot.accept('./actions/index', () => {
-    store.replaceReducer(require('./actions/index').default)
-  })
+  // module.hot.accept('./actions/index', () => {
+  //   store.replaceReducer(require('./actions/index').default)
+  // })
+  // module.hot.accept('./styles/index.css', () => {
+  //   store.replaceReducer(require('./styles/index.css').default)
+  // })
 }

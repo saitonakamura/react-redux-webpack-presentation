@@ -2,9 +2,13 @@ import React, { PropTypes } from 'react'
 
 const ReduxSlide = () => (
     <div>
-      Redux is a predictable state container for javascript apps blablabla
+      <h3 className="ui header">Redux</h3>
       <br/><br/>
       What's in it for us?
+      <ul className="ui list">
+        <li>Единый источник правды</li>
+
+      </ul>
     </div>
 )
 

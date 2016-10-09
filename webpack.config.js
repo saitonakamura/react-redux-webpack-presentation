@@ -1,13 +1,13 @@
 var path = require('path')
 var webpack = require('webpack')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
-var ExtractTextPlugin = require("extract-text-webpack-plugin")
+// var ExtractTextPlugin = require("extract-text-webpack-plugin")
 
 module.exports = {
   entry: [
-    'react-hot-loader/patch',
     'webpack-dev-server/client?http://0.0.0.0:3000', // WebpackDevServer host and port
     'webpack/hot/only-dev-server', // "only" prevents reload on syntax errors
+    'react-hot-loader/patch',
     './src/index',
   ],
   output: {
@@ -20,7 +20,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.jsx?$/, loaders: ['babel'], include: path.resolve(__dirname, 'src'), },
-      { test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css'), },
+      { test: /\.css$/, loaders: ['style', 'css'], },
       { test: /\.(png|jpg)$/, loader: 'file?name=images/[name].[hash].[ext]' },
       { test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: 'file?name=fonts/[name].[hash].[ext]&mimetype=application/font-woff'},
       { test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/,loader: 'file?name=fonts/[name].[hash].[ext]&mimetype=application/font-woff'},
@@ -31,7 +31,6 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: 'index.html.ejs', }),
-    new ExtractTextPlugin('css/style.[hash].css'),
     new webpack.NoErrorsPlugin(),
     new webpack.HotModuleReplacementPlugin(),
   ],
