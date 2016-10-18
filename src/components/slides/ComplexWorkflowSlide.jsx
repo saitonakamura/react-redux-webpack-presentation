@@ -2,11 +2,8 @@ import React, { PropTypes } from 'react'
 
 const ComplexWorkflowSlide = () => (
     <div>
-      But what if we have a complex workflow?
+      Но что если у меня какой-то сложный воркфлоу, и мне приходится проделывать дополнительные действия после автоматической перезагрузки страницы? <br />
       Write-Save-<i>autoreload</i>-Routine-Check
-      <br/><br/>
-      You can say that I should have used a router here,
-      but you can't use router for everything
     </div>
 )
 

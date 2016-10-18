@@ -69,7 +69,7 @@
 
 	var _App2 = _interopRequireDefault(_App);
 
-	var _index = __webpack_require__(607);
+	var _index = __webpack_require__(611);
 
 	var _index2 = _interopRequireDefault(_index);
 
@@ -77,7 +77,7 @@
 
 	var _DevTools2 = _interopRequireDefault(_DevTools);
 
-	__webpack_require__(608);
+	__webpack_require__(612);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39074,7 +39074,7 @@
 
 	var _index2 = _interopRequireDefault(_index);
 
-	var _index3 = __webpack_require__(606);
+	var _index3 = __webpack_require__(610);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -40424,49 +40424,65 @@
 
 	var _HelloSlide2 = _interopRequireDefault(_HelloSlide);
 
-	var _MotivationSlide = __webpack_require__(596);
-
-	var _MotivationSlide2 = _interopRequireDefault(_MotivationSlide);
-
-	var _MotivationFeedbackSlide = __webpack_require__(597);
+	var _MotivationFeedbackSlide = __webpack_require__(596);
 
 	var _MotivationFeedbackSlide2 = _interopRequireDefault(_MotivationFeedbackSlide);
 
-	var _BackInMvcSlide = __webpack_require__(598);
+	var _BackInMvcSlide = __webpack_require__(597);
 
 	var _BackInMvcSlide2 = _interopRequireDefault(_BackInMvcSlide);
 
-	var _SuddenlySpaSlide = __webpack_require__(599);
+	var _SuddenlySpaSlide = __webpack_require__(598);
 
 	var _SuddenlySpaSlide2 = _interopRequireDefault(_SuddenlySpaSlide);
 
-	var _WhyNotAutoreloadSlide = __webpack_require__(600);
+	var _WhyNotAutoreloadSlide = __webpack_require__(599);
 
 	var _WhyNotAutoreloadSlide2 = _interopRequireDefault(_WhyNotAutoreloadSlide);
 
-	var _ComplexWorkflowSlide = __webpack_require__(601);
+	var _ComplexWorkflowSlide = __webpack_require__(600);
 
 	var _ComplexWorkflowSlide2 = _interopRequireDefault(_ComplexWorkflowSlide);
 
-	var _WebpackHmrSlide = __webpack_require__(602);
+	var _WebpackHmrSlide = __webpack_require__(601);
 
 	var _WebpackHmrSlide2 = _interopRequireDefault(_WebpackHmrSlide);
 
-	var _WhatIfErrorIsInWorkflowSlide = __webpack_require__(603);
+	var _WhatIfErrorIsInWorkflowSlide = __webpack_require__(602);
 
 	var _WhatIfErrorIsInWorkflowSlide2 = _interopRequireDefault(_WhatIfErrorIsInWorkflowSlide);
 
-	var _ReduxSlide = __webpack_require__(604);
+	var _ReduxSlide = __webpack_require__(603);
 
 	var _ReduxSlide2 = _interopRequireDefault(_ReduxSlide);
 
-	var _EndSlide = __webpack_require__(605);
+	var _StateSlide = __webpack_require__(604);
+
+	var _StateSlide2 = _interopRequireDefault(_StateSlide);
+
+	var _ActionsSlide = __webpack_require__(605);
+
+	var _ActionsSlide2 = _interopRequireDefault(_ActionsSlide);
+
+	var _ReducersSlide = __webpack_require__(606);
+
+	var _ReducersSlide2 = _interopRequireDefault(_ReducersSlide);
+
+	var _ApplyReduxToHMRSlide = __webpack_require__(607);
+
+	var _ApplyReduxToHMRSlide2 = _interopRequireDefault(_ApplyReduxToHMRSlide);
+
+	var _DisadvantagesSlide = __webpack_require__(608);
+
+	var _DisadvantagesSlide2 = _interopRequireDefault(_DisadvantagesSlide);
+
+	var _EndSlide = __webpack_require__(609);
 
 	var _EndSlide2 = _interopRequireDefault(_EndSlide);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var slides = [_react2.default.createElement(_HelloSlide2.default, null), _react2.default.createElement(_MotivationSlide2.default, null), _react2.default.createElement(_MotivationFeedbackSlide2.default, null), _react2.default.createElement(_BackInMvcSlide2.default, null), _react2.default.createElement(_SuddenlySpaSlide2.default, null), _react2.default.createElement(_WhyNotAutoreloadSlide2.default, null), _react2.default.createElement(_ComplexWorkflowSlide2.default, null), _react2.default.createElement(_WebpackHmrSlide2.default, null), _react2.default.createElement(_WhatIfErrorIsInWorkflowSlide2.default, null), _react2.default.createElement(_ReduxSlide2.default, null), _react2.default.createElement(_EndSlide2.default, null)];
+	var slides = [_react2.default.createElement(_HelloSlide2.default, null), _react2.default.createElement(_MotivationFeedbackSlide2.default, null), _react2.default.createElement(_BackInMvcSlide2.default, null), _react2.default.createElement(_SuddenlySpaSlide2.default, null), _react2.default.createElement(_WhyNotAutoreloadSlide2.default, null), _react2.default.createElement(_ComplexWorkflowSlide2.default, null), _react2.default.createElement(_WebpackHmrSlide2.default, null), _react2.default.createElement(_WhatIfErrorIsInWorkflowSlide2.default, null), _react2.default.createElement(_ReduxSlide2.default, null), _react2.default.createElement(_StateSlide2.default, null), _react2.default.createElement(_ActionsSlide2.default, null), _react2.default.createElement(_ReducersSlide2.default, null), _react2.default.createElement(_ApplyReduxToHMRSlide2.default, null), _react2.default.createElement(_DisadvantagesSlide2.default, null), _react2.default.createElement(_EndSlide2.default, null)];
 
 	exports.default = slides;
 
@@ -40521,44 +40537,18 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var MotivationSlide = function MotivationSlide() {
-	  return _react2.default.createElement(
-	    'div',
-	    null,
-	    'It\'s not only about new shiny instruments but also about new approaches, which you can apply regardless of the insruments'
-	  );
-	};
-
-	exports.default = MotivationSlide;
-
-/***/ },
-/* 597 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(2);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 	var MotivationFeedbackSlide = function MotivationFeedbackSlide() {
 	  return _react2.default.createElement(
 	    'div',
 	    null,
-	    'Interface development is all about visual feedback like backend development is about tests feedback The quicker the better'
+	    '\u0412 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0438 \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u0438\u0445 \u0438\u043D\u0442\u0435\u0440\u0435\u0444\u0435\u0439\u0441\u043E\u0432 \u043E\u0447\u0435\u043D\u044C \u0432\u0430\u0436\u0435\u043D \u0444\u0438\u0434\u0431\u0435\u043A, \u0442\u0430\u043A\u0436\u0435 \u043A\u0430\u043A \u0434\u043B\u044F \u0431\u044D\u043A\u0435\u043D\u0434\u0430 \u043D\u0443\u0436\u043D\u044B \u0431\u044B\u0441\u0442\u0440\u044B\u0435 \u0442\u0435\u0441\u0442\u044B'
 	  );
 	};
 
 	exports.default = MotivationFeedbackSlide;
 
 /***/ },
-/* 598 */
+/* 597 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40577,14 +40567,18 @@
 	  return _react2.default.createElement(
 	    'div',
 	    null,
-	    'Back in 20-whatever, in the MVC ground Write-Save-?Compile-Reload-Check'
+	    '\u0414\u0430\u0432\u043D\u044B\u043C-\u0434\u0430\u0432\u043D\u043E \u0432\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0430 MVC \u044F \u043F\u0438\u0441\u0430\u043B \u0432\u0435\u0431 \u043D\u0430 ASP.NET \u0438 \u043C\u043E\u0439 \u043F\u0440\u043E\u0446\u0435\u0441\u0441 \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0438 \u0432\u044B\u0433\u043B\u044F\u0434\u0435\u043B \u0442\u0430\u043A',
+	    _react2.default.createElement('br', null),
+	    'Write-Save-Compile-Reload-Check',
+	    _react2.default.createElement('br', null),
+	    '\u0421\u0435\u0439\u0447\u0430\u0441 \u0443 \u043D\u0430\u0441 \u0435\u0441\u0442\u044C \u0441\u0442\u0430\u0440\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442 \u043D\u0430 ASP.NET Webforms \u0433\u0434\u0435 \u043C\u0435\u0436\u0434\u0443 \u043D\u0443\u0436\u043D\u043E \u0436\u0434\u0430\u0442\u044C \u043F\u043E\u043B\u0442\u043E\u0440\u044B(sic!) \u043C\u0438\u043D\u0443\u0442\u044B \u0447\u0442\u043E\u0431\u044B \u0443\u0432\u0438\u0434\u0435\u0442\u044C \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442 \u0441\u0432\u043E\u0435\u0439 \u0440\u0430\u0431\u043E\u0442\u044B'
 	  );
 	};
 
 	exports.default = BackInMvcSlide;
 
 /***/ },
-/* 599 */
+/* 598 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40603,14 +40597,22 @@
 	  return _react2.default.createElement(
 	    'div',
 	    null,
-	    'Suddenly wild SPA appears Write-Save-Reload-Check'
+	    '\u0417\u0430\u0442\u0435\u043C \u0432 \u043C\u043E\u0435\u0439 \u0436\u0438\u0437\u043D\u0438 \u043F\u043E\u044F\u0432\u0438\u043B\u0438\u0441\u044C SPA ',
+	    _react2.default.createElement('br', null),
+	    '\u0418 \u044F \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u043B \u0447\u0442\u043E \u043A\u043E\u0434 \u043C\u043E\u0436\u043D\u043E \u043D\u0435 \u043F\u0435\u0440\u0435\u043A\u043E\u043C\u043F\u0438\u043B\u0438\u0440\u043E\u0432\u0430\u0442\u044C!',
+	    _react2.default.createElement('br', null),
+	    'Write-Save-Reload-Check',
+	    _react2.default.createElement('br', null),
+	    '\u0418 \u0432\u043E\u043E\u0431\u0449\u0435 \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435 \u0433\u043E\u0440\u0430\u0437\u0434\u043E \u043B\u0435\u0433\u0447\u0435',
+	    _react2.default.createElement('br', null),
+	    '\u0421\u043F\u0440\u0430\u0432\u0435\u0434\u043B\u0438\u0432\u043E\u0441\u0442\u0438 \u0440\u0430\u0434\u0438 \u043D\u0430\u0434\u043E \u0441\u043A\u0430\u0437\u0430\u0442\u044C \u0447\u0442\u043E \u044D\u0442\u043E, \u043A\u043E\u043D\u0435\u0447\u043D\u043E, \u0434\u043E\u0441\u0442\u043E\u0438\u043D\u0441\u0442\u0432\u043E \u0432\u043E\u0432\u0441\u0435 \u043D\u0435 SPA, \u0430 \u0434\u0438\u043D\u0430\u043C\u0438\u0447\u0435\u0441\u043A\u0438\u0445 \u044F\u0437\u044B\u043A\u043E\u0432, \u043D\u043E \u0443\u0436 \u0442\u0430\u043A \u0441\u043B\u043E\u0436\u0438\u043B\u043E\u0441\u044C'
 	  );
 	};
 
 	exports.default = SuddenlySpaSlide;
 
 /***/ },
-/* 600 */
+/* 599 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40629,20 +40631,24 @@
 	  return _react2.default.createElement(
 	    'div',
 	    null,
-	    'Then why not auto reload? Write-Save-',
+	    '\u041F\u043E\u0447\u0435\u043C\u0443 \u0431\u044B \u043D\u0435 \u043F\u043E\u0439\u0442\u0438 \u0434\u0430\u043B\u044C\u0448\u0435 \u0438 \u043D\u0435 \u0430\u0432\u0442\u043E\u0440\u0435\u043B\u043E\u0430\u0434\u0438\u0442\u044C \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443 \u043F\u043E\u0441\u043B\u0435 \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u0444\u0430\u0439\u043B\u043E\u0432? ',
+	    _react2.default.createElement('br', null),
+	    'Write-Save-',
 	    _react2.default.createElement(
 	      'i',
 	      null,
 	      'autoreload'
 	    ),
-	    '-Check'
+	    '-Check ',
+	    _react2.default.createElement('br', null),
+	    '\u0422\u0430\u043A \u043F\u043E\u044F\u0432\u0438\u043B\u0438\u0441\u044C live-reload \u0438 lite-server'
 	  );
 	};
 
 	exports.default = WhyNotAutoreloadSlide;
 
 /***/ },
-/* 601 */
+/* 600 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40661,23 +40667,22 @@
 	  return _react2.default.createElement(
 	    'div',
 	    null,
-	    'But what if we have a complex workflow? Write-Save-',
+	    '\u041D\u043E \u0447\u0442\u043E \u0435\u0441\u043B\u0438 \u0443 \u043C\u0435\u043D\u044F \u043A\u0430\u043A\u043E\u0439-\u0442\u043E \u0441\u043B\u043E\u0436\u043D\u044B\u0439 \u0432\u043E\u0440\u043A\u0444\u043B\u043E\u0443, \u0438 \u043C\u043D\u0435 \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442\u0441\u044F \u043F\u0440\u043E\u0434\u0435\u043B\u044B\u0432\u0430\u0442\u044C \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F \u043F\u043E\u0441\u043B\u0435 \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u043A\u0438 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u044B? ',
+	    _react2.default.createElement('br', null),
+	    'Write-Save-',
 	    _react2.default.createElement(
 	      'i',
 	      null,
 	      'autoreload'
 	    ),
-	    '-Routine-Check',
-	    _react2.default.createElement('br', null),
-	    _react2.default.createElement('br', null),
-	    'You can say that I should have used a router here, but you can\'t use router for everything'
+	    '-Routine-Check'
 	  );
 	};
 
 	exports.default = ComplexWorkflowSlide;
 
 /***/ },
-/* 602 */
+/* 601 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40696,7 +40701,11 @@
 	  return _react2.default.createElement(
 	    'div',
 	    null,
-	    'This is where webpack hot module replacement kicks in Write-Save-',
+	    '\u0422\u0443\u0442 \u0432 \u043F\u0440\u0435\u0437\u0435\u043D\u0442\u0430\u0446\u0438\u044E \u0432\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F webpack \u0441 \u0435\u0433\u043E hot module replacement! ',
+	    _react2.default.createElement('br', null),
+	    '\u0420\u0430\u0431\u043E\u0442\u0430\u0435\u0442 \u044D\u0442\u043E \u0437\u0430 \u0441\u0447\u0435\u0442 \u0442\u043E\u0433\u043E \u0447\u0442\u043E render \u0432 React-\u0435 \u2014 \u0447\u0438\u0441\u0442\u0430\u044F \u0444\u0443\u043D\u043A\u0446\u0438\u044F \u0438 \u0435\u0451 \u043D\u043E\u0432\u0443\u044E \u0440\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044E \u043C\u043E\u0436\u043D\u043E \u043F\u0440\u043E\u0441\u0442\u043E \u043F\u0435\u0440\u0435\u0437\u0430\u043F\u0443\u0441\u0442\u0438\u0442\u044C \u0441\u043E \u0441\u0442\u0430\u0440\u044B\u043C\u0438 \u0434\u0430\u043D\u043D\u044B\u043C\u0438 ',
+	    _react2.default.createElement('br', null),
+	    'Write-Save-',
 	    _react2.default.createElement(
 	      'i',
 	      null,
@@ -40715,7 +40724,7 @@
 	exports.default = WebpackHmrSlide;
 
 /***/ },
-/* 603 */
+/* 602 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40734,17 +40743,16 @@
 	  return _react2.default.createElement(
 	    'div',
 	    null,
-	    'But what if we have error in our workflow, like we forgot the save the data to state?',
+	    '\u041D\u043E \u044D\u0442\u043E \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 \u0442\u043E\u043B\u044C\u043A\u043E \u0434\u043B\u044F \u0432\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F, \u0430 \u0447\u0442\u043E \u0435\u0441\u043B\u0438 \u043C\u044B \u0434\u043E\u043F\u0443\u0441\u0442\u0438\u043B\u0438 \u043E\u0448\u0438\u0431\u043A\u0443 \u0432 \u043B\u043E\u0433\u0438\u043A\u0435, \u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440 \u0437\u0430\u0431\u044B\u043B\u0438 \u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0434\u0430\u043D\u043D\u044B\u0435 \u043F\u0440\u0438\u0448\u0435\u0434\u0448\u0438\u0435 \u0441 \u0441\u0435\u0440\u0432\u0435\u0440\u0430?',
 	    _react2.default.createElement('br', null),
-	    _react2.default.createElement('br', null),
-	    'This is when Redux steps in'
+	    '\u0417\u0434\u0435\u0441\u044C \u0432\u0441\u0442\u0443\u043F\u0430\u0435\u0442 \u0432 \u0434\u0435\u043B\u043E Redux'
 	  );
 	};
 
 	exports.default = WhatIfErrorIsInWorkflowSlide;
 
 /***/ },
-/* 604 */
+/* 603 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -40766,11 +40774,43 @@
 	    _react2.default.createElement(
 	      "h3",
 	      { className: "ui header" },
-	      "Redux"
+	      "\u0427\u0442\u043E \u0442\u0430\u043A\u043E\u0435 Redux?"
 	    ),
+	    "Redux \u044D\u0442\u043E \u043F\u0440\u0435\u0436\u0434\u0435 \u0432\u0441\u0435\u0433\u043E \u0440\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F Flux ",
 	    _react2.default.createElement("br", null),
+	    "Flux: Store-Dispatcher-Subscribers-ActionCreators ",
 	    _react2.default.createElement("br", null),
-	    "What's in it for us?",
+	    "Redux: State-Dispatch-Reducers-Actions"
+	  );
+	};
+
+	exports.default = ReduxSlide;
+
+/***/ },
+/* 604 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var StateSlide = function StateSlide() {
+	  return _react2.default.createElement(
+	    "div",
+	    null,
+	    _react2.default.createElement(
+	      "h3",
+	      { className: "ui header" },
+	      "State"
+	    ),
 	    _react2.default.createElement(
 	      "ul",
 	      { className: "ui list" },
@@ -40778,15 +40818,216 @@
 	        "li",
 	        null,
 	        "\u0415\u0434\u0438\u043D\u044B\u0439 \u0438\u0441\u0442\u043E\u0447\u043D\u0438\u043A \u043F\u0440\u0430\u0432\u0434\u044B"
+	      ),
+	      _react2.default.createElement(
+	        "li",
+	        null,
+	        "\u041C\u0435\u043D\u044F\u0435\u0442\u0441\u044F \u0438\u043C\u043C\u0443\u0442\u0430\u0431\u0435\u043B\u044C\u043D\u043E"
+	      ),
+	      _react2.default.createElement(
+	        "li",
+	        null,
+	        "\u0416\u0435\u043B\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u0447\u0442\u043E\u0431\u044B \u0431\u044B\u043B \u0441\u0435\u0440\u0438\u0430\u043B\u0438\u0437\u0443\u0435\u043C"
 	      )
 	    )
 	  );
 	};
 
-	exports.default = ReduxSlide;
+	exports.default = StateSlide;
 
 /***/ },
 /* 605 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var ActionsSlide = function ActionsSlide() {
+	  return _react2.default.createElement(
+	    "div",
+	    null,
+	    _react2.default.createElement(
+	      "h3",
+	      { className: "ui header" },
+	      "Actions"
+	    ),
+	    _react2.default.createElement(
+	      "ul",
+	      { className: "ui list" },
+	      _react2.default.createElement(
+	        "li",
+	        null,
+	        "\u0412\u044B\u0440\u0430\u0436\u0430\u044E\u0442 \u043D\u0430\u043C\u0435\u0440\u0435\u043D\u0438\u0435 \u0438\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435"
+	      ),
+	      _react2.default.createElement(
+	        "li",
+	        null,
+	        "\u041F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u044E\u0442 \u0441\u043E\u0431\u043E\u0439 \u043F\u0440\u043E\u0441\u0442\u044B\u0435 \u043E\u0431\u044A\u0435\u043A\u0442\u044B"
+	      )
+	    ),
+	    _react2.default.createElement(
+	      "h3",
+	      { className: "ui header" },
+	      "ActionCreators"
+	    ),
+	    _react2.default.createElement(
+	      "ul",
+	      { className: "ui list" },
+	      _react2.default.createElement(
+	        "li",
+	        null,
+	        "\u041F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u044E\u0442 \u0441\u043E\u0431\u043E\u0439 \u0444\u0443\u043D\u043A\u0446\u0438\u0438 \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u044E\u0449\u0438\u0435 Action"
+	      ),
+	      _react2.default.createElement(
+	        "li",
+	        null,
+	        "\u041C\u043E\u0433\u0443\u0442 \u0431\u044B\u0442\u044C \u043D\u0435 \u0447\u0438\u0441\u0442\u044B\u043C\u0438 \u0438 \u043D\u0435 \u0438\u0434\u0435\u043C\u043F\u043E\u0442\u0435\u043D\u0442\u043D\u044B\u043C\u0438"
+	      )
+	    )
+	  );
+	};
+
+	exports.default = ActionsSlide;
+
+/***/ },
+/* 606 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var ReducersSlide = function ReducersSlide() {
+	  return _react2.default.createElement(
+	    "div",
+	    null,
+	    _react2.default.createElement(
+	      "h3",
+	      { className: "ui header" },
+	      "Reducers"
+	    ),
+	    _react2.default.createElement(
+	      "ul",
+	      { className: "ui list" },
+	      _react2.default.createElement(
+	        "li",
+	        null,
+	        "\u0424\u0443\u043D\u043A\u0446\u0438\u0438 \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u044E\u0449\u0438\u0435 \u0442\u0435\u043A\u0443\u0449\u0438\u0439 state \u0438 action"
+	      ),
+	      _react2.default.createElement(
+	        "li",
+	        null,
+	        "\u0427\u0438\u0441\u0442\u044B\u0435 \u0444\u0443\u043D\u043A\u0446\u0438\u0438"
+	      ),
+	      _react2.default.createElement(
+	        "li",
+	        null,
+	        "\u0418\u043C\u043C\u0443\u0442\u0430\u0431\u0435\u043B\u044C\u043D\u043E \u043C\u0435\u043D\u044F\u044E\u0442 state \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0430\u044F \u043D\u043E\u0432\u044B\u0439"
+	      )
+	    )
+	  );
+	};
+
+	exports.default = ReducersSlide;
+
+/***/ },
+/* 607 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var ApplyReduxToHMRSlide = function ApplyReduxToHMRSlide() {
+	  return _react2.default.createElement(
+	    "div",
+	    null,
+	    _react2.default.createElement(
+	      "h3",
+	      { className: "ui header" },
+	      "\u041D\u043E \u043A\u0430\u043A Redux \u043D\u0430\u043C \u043F\u043E\u043C\u043E\u0436\u0435\u0442?"
+	    ),
+	    "\u0421\u0430\u043C\u043E\u0435 \u0432\u0430\u0436\u043D\u043E\u0435 \u0434\u043B\u044F \u043D\u0430\u0441 \u044D\u0442\u043E \u0442\u043E \u0447\u0442\u043E \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435 \u0432 \u043D\u0451\u043C \u043C\u0435\u043D\u044F\u0435\u0442\u0441\u044F \u0438\u043C\u043C\u0443\u0442\u0430\u0431\u0435\u043B\u044C\u043D\u043E \u0438 \u043C\u044B \u043C\u043E\u0436\u0435\u043C \u0445\u0440\u0430\u043D\u0438\u0442\u044C \u043A\u0430\u0436\u0434\u043E\u0435 \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0435\u0435 \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435 \u0447\u0442\u043E\u0431\u044B \u0432\u043E\u0437\u0432\u0440\u0430\u0442\u0438\u0442\u044C\u0441\u044F \u043A \u043D\u0435\u043C\u0443 \u0438 \u043F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u043F\u0440\u0438\u043C\u0435\u043D\u0438\u0442\u044C action \u0435\u0449\u0435 \u0440\u0430\u0437 ",
+	    _react2.default.createElement("br", null),
+	    "\u0422\u0430\u043A\u0436\u0435 \u043C\u044B \u043C\u043E\u0436\u0435\u043C \u0441\u0435\u0440\u0438\u0430\u043B\u0438\u0437\u043E\u0432\u0430\u0442\u044C \u043D\u0430\u0448\u0435 \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435 \u0438 \u0441\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0435\u0433\u043E \u0432 \u043E\u0444\u0444\u043B\u0430\u0439\u043D \u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435  ",
+	    _react2.default.createElement("br", null),
+	    "\u0418\u043B\u0438 \u043C\u044B \u043C\u043E\u0436\u0435\u043C \u0441\u0435\u0440\u0438\u0430\u043B\u0438\u0437\u043E\u0432\u0430\u0442\u044C \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435 \u043F\u0440\u0438 \u043E\u0448\u0438\u0431\u043A\u0435 \u0432 \u043F\u0440\u043E\u0434\u0430\u043A\u0448\u0435\u043D\u0435 \u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u0438\u0432 \u0435\u0433\u043E \u0441\u0435\u0431\u0435 \u043E\u0442\u0434\u0435\u0431\u0430\u0436\u0438\u0442\u044C"
+	  );
+	};
+
+	exports.default = ApplyReduxToHMRSlide;
+
+/***/ },
+/* 608 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(2);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var DisadvantagesSlide = function DisadvantagesSlide() {
+	  return _react2.default.createElement(
+	    "div",
+	    null,
+	    _react2.default.createElement(
+	      "h3",
+	      { className: "ui header" },
+	      "\u041C\u0438\u043D\u0443\u0441\u044B"
+	    ),
+	    _react2.default.createElement(
+	      "ul",
+	      { className: "ui list" },
+	      _react2.default.createElement(
+	        "li",
+	        null,
+	        "\u041C\u043D\u043E\u0433\u043E boilerplate \u043A\u043E\u0434\u0430 \u0438\u0431\u043E \u043C\u0430\u043B\u043E \u043C\u0430\u0433\u0438\u0438, \u044D\u0442\u043E \u0432\u0430\u043C \u043D\u0435 ember \u0438 \u043D\u0435 RubyOnRails"
+	      ),
+	      _react2.default.createElement(
+	        "li",
+	        null,
+	        "\u0412\u044B\u0441\u043E\u043A\u0438\u0439 \u043F\u043E\u0440\u043E\u0433 \u0432\u0445\u043E\u0436\u0434\u0435\u043D\u0438\u044F, \u043C\u043D\u043E\u0433\u043E \u043D\u043E\u0432\u043E\u0433\u043E, flux, immutable etc."
+	      )
+	    )
+	  );
+	};
+
+	exports.default = DisadvantagesSlide;
+
+/***/ },
+/* 609 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40805,14 +41046,14 @@
 	    return _react2.default.createElement(
 	        'div',
 	        null,
-	        'End slide'
+	        '\u0421\u0441\u044B\u043B\u043A\u0438 \u043D\u0430 \u043A\u043E\u0434, \u043D\u0430 \u043C\u0435\u043D\u044F, \u043D\u0430 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430\u0446\u0438\u044E'
 	    );
 	};
 
 	exports.default = EndSlide;
 
 /***/ },
-/* 606 */
+/* 610 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -40857,7 +41098,7 @@
 	};
 
 /***/ },
-/* 607 */
+/* 611 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40870,7 +41111,7 @@
 
 	var _redux = __webpack_require__(35);
 
-	var _index = __webpack_require__(606);
+	var _index = __webpack_require__(610);
 
 	var presentation = function presentation() {
 	  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : { activeSlide: 0 };
@@ -40905,13 +41146,13 @@
 	exports.default = (0, _redux.combineReducers)({ presentation: presentation });
 
 /***/ },
-/* 608 */
+/* 612 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(609);
+	var content = __webpack_require__(613);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(213)(content, {});
@@ -40931,7 +41172,7 @@
 	}
 
 /***/ },
-/* 609 */
+/* 613 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(212)();
@@ -40939,7 +41180,7 @@
 
 
 	// module
-	exports.push([module.id, "body div#root div {\r\n  background-color: #1B1C1D;\r\n  font-size: 1.7rem;\r\n  font-family: 'Segoe UI', Arial, Helvetica, sans-serif !important;\r\n  color: rgba(255, 255, 255, 0.9);\r\n}\r\n\r\nbody div#root div h1,\r\nbody div#root div h2,\r\nbody div#root div h3,\r\nbody div#root div h4,\r\nbody div#root div h5,\r\nbody div#root div h6 {\r\n  font-family: 'Segoe UI Light', Arial, Helvetica, sans-serif !important;\r\n}\r\n", ""]);
+	exports.push([module.id, "html {\r\n  font-size: 38px !important;\r\n  background-color: #1B1C1D;\r\n}\r\n\r\nbody div#root div {\r\n  background-color: #1B1C1D;\r\n  font-size: 1rem;\r\n  line-height: 1.5rem !important;\r\n  font-family: 'Segoe UI', Arial, Helvetica, sans-serif !important;\r\n  color: rgba(255, 255, 255, 0.9);\r\n}\r\n\r\nbody div#root div h1,\r\nbody div#root div h2,\r\nbody div#root div h3,\r\nbody div#root div h4,\r\nbody div#root div h5,\r\nbody div#root div h6 {\r\n  font-family: 'Segoe UI Light', Arial, Helvetica, sans-serif !important;\r\n}\r\n", ""]);
 
 	// exports
 

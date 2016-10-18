@@ -2,10 +2,9 @@ import React, { PropTypes } from 'react'
 
 const WhatIfErrorIsInWorkflowSlide = () => (
     <div>
-      But what if we have error in our workflow,
-      like we forgot the save the data to state?
-      <br/><br/>
-      This is when Redux steps in
+      Но это работает только для визуального отображения,
+      а что если мы допустили ошибку в логике, например забыли сохранить данные пришедшие с сервера?<br/>
+      Здесь вступает в дело Redux
     </div>
 )
 

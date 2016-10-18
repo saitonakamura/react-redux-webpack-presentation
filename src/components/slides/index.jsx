@@ -1,6 +1,5 @@
 import React from 'react'
 import HelloSlide from './HelloSlide'
-import MotivationSlide from './MotivationSlide'
 import MotivationFeedbackSlide from './MotivationFeedbackSlide'
 import BackInMvcSlide from './BackInMvcSlide'
 import SuddenlySpaSlide from './SuddenlySpaSlide'
@@ -9,11 +8,15 @@ import ComplexWorkflowSlide from './ComplexWorkflowSlide'
 import WebpackHmrSlide from './WebpackHmrSlide'
 import WhatIfErrorIsInWorkflowSlide from './WhatIfErrorIsInWorkflowSlide'
 import ReduxSlide from './ReduxSlide'
+import StateSlide from './StateSlide'
+import ActionsSlide from './ActionsSlide'
+import ReducersSlide from './ReducersSlide'
+import ApplyReduxToHMRSlide from './ApplyReduxToHMRSlide'
+import DisadvantagesSlide from './DisadvantagesSlide'
 import EndSlide from './EndSlide'
 
 const slides = [
   <HelloSlide />,
-  <MotivationSlide />,
   <MotivationFeedbackSlide />,
   <BackInMvcSlide />,
   <SuddenlySpaSlide />,
@@ -22,6 +25,11 @@ const slides = [
   <WebpackHmrSlide />,
   <WhatIfErrorIsInWorkflowSlide />,
   <ReduxSlide />,
+  <StateSlide />,
+  <ActionsSlide />,
+  <ReducersSlide />,
+  <ApplyReduxToHMRSlide />,
+  <DisadvantagesSlide />,
   <EndSlide />,
 ]
 
