@@ -2,6 +2,8 @@
 
 Live coding presentation of react redux and webpack integration with hot module replacement and time travel
 
+[Demo](https://saitonakamura.github.io/react-redux-webpack-presentation/)
+
 ## План
 
 ### HelloSlide
