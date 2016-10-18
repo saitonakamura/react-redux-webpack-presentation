@@ -1,7 +1,8 @@
 body div#root div {
   background-color: #1B1C1D;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-family: 'Segoe UI', Arial, Helvetica, sans-serif !important;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 body div#root div h1,

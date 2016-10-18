@@ -1,41 +1,36 @@
 import React, { PropTypes, Component } from 'react'
 import { connect } from 'react-redux'
-import key from 'keymaster'
 import mousetrap from 'mousetrap'
-import 'semantic-ui-css/components/segment'
-import 'semantic-ui-css/components/menu'
-import 'semantic-ui-css/components/button'
-import 'semantic-ui-css/components/icon'
+import 'semantic-ui-css/components/segment.css'
+import 'semantic-ui-css/components/menu.css'
+import 'semantic-ui-css/components/button.css'
+import 'semantic-ui-css/components/icon.css'
 import slides from './slides/index'
 import { goToNextSlide, goToPrevSlide, setSlidesCount, goToFirstSlide, goToLastSlide }
   from '../actions/index'
 
-const SlideStepper = ({ activeSlide, goToNextSlide, goToPrevSlide, goToFirstSlide, goToLastSlide }) => {
+const Stepper = ({ goToNextSlide, goToPrevSlide, goToFirstSlide, goToLastSlide }) => (
+  <div className="ui large icon buttons">
+    <button className="ui button" onClick={goToFirstSlide}>
+      <i className="step backward icon"></i>
+    </button>
+    <button className="ui button" onClick={goToPrevSlide}>
+      <i className="step backward icon"></i>
+    </button>
+    <button className="ui button" onClick={goToNextSlide}>
+      <i className="step forward icon"></i>
+    </button>
+    <button className="ui button" onClick={goToLastSlide}>
+      <i className="fast forward icon"></i>
+    </button>
+  </div>
+)
+
+const SlideStepper = (props) => {
+  const { activeSlide } = props
   return (
-    <div>
-      <div className="ui center aligned grid">
-        <div className="row">
-          <div className="sixteen wide column">
-          <div className="ui large icon buttons">
-            <button className="ui button" onClick={goToFirstSlide}>
-              <i className="step backward icon"></i>
-            </button>
-            <button className="ui button" onClick={goToPrevSlide}>
-              <i className="step backward icon"></i>
-            </button>
-            <button className="ui button" onClick={goToNextSlide}>
-              <i className="step forward icon"></i>
-            </button>
-            <button className="ui button" onClick={goToLastSlide}>
-              <i className="fast forward icon"></i>
-            </button>
-          </div>
-          </div>
-        </div>
-      </div>
-      <div className="ui inverted segment" style={{ height: '88vh' }}>
-        {slides[activeSlide]}
-      </div>
+    <div style={{ height: '100vh', padding: '4.5em' }}>
+      {slides[activeSlide]}
     </div>
   )
 }

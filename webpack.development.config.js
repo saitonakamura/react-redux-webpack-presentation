@@ -1,14 +1,16 @@
 var path = require('path')
 var webpack = require('webpack')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
-// var ExtractTextPlugin = require("extract-text-webpack-plugin")
 
 module.exports = {
   entry: [
+    'webpack-dev-server/client?http://0.0.0.0:3000', // WebpackDevServer host and port
+    'webpack/hot/only-dev-server', // "only" prevents reload on syntax errors
+    'react-hot-loader/patch',
     './src/index',
   ],
   output: {
-    path: path.resolve('./docs'),
+    path: path.join(__dirname, 'docs'),
     filename: 'bundle.js',
   },
   resolve: {
@@ -16,7 +18,7 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.jsx?$/, loaders: ['babel'], include: path.resolve('./src'), },
+      { test: /\.jsx?$/, loaders: ['babel'], include: path.resolve(__dirname, 'src'), },
       { test: /\.css$/, loaders: ['style', 'css'], },
       { test: /\.(png|jpg)$/, loader: 'file?name=images/[name].[hash].[ext]' },
       { test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: 'file?name=fonts/[name].[hash].[ext]&mimetype=application/font-woff'},
@@ -28,5 +30,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({ template: 'index.html.ejs', }),
+    new webpack.NoErrorsPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
   ],
 }

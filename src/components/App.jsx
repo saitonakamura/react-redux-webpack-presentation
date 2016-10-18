@@ -1,17 +1,15 @@
 import React, { PropTypes } from 'react'
-import 'semantic-ui-css/components/reset'
-import 'semantic-ui-css/components/site'
-import 'semantic-ui-css/components/grid'
-import 'semantic-ui-css/components/button'
+import 'semantic-ui-css/components/reset.css'
+import 'semantic-ui-css/components/site.css'
+import 'semantic-ui-css/components/grid.css'
+import 'semantic-ui-css/components/button.css'
 import DevTools from './DevTools'
 import SlideStepper from './SlideStepper'
 
 const App = (props) => (
-  <div className="ui sixteen column grid" style={{ height: '100vh' }}>
-    <div className="sixteen wide column">
+  <div>
       <SlideStepper />
       <DevTools />
-    </div>
   </div>
 )
 
