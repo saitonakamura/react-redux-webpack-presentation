@@ -2,11 +2,17 @@ import React, { PropTypes } from 'react'
 
 const SuddenlySpaSlide = () => (
     <div>
-      Затем в моей жизни появились SPA <br />
-      И я обнаружил что код можно не перекомпилировать!<br />
-      Write-Save-Reload-Check<br />
-      И вообще приложение гораздо легче<br />
-      Справедливости ради надо сказать что это, конечно, достоинство вовсе не SPA, а динамических языков, но уж так сложилось
+      <h3 className="ui inverted header">Динамические языки</h3>
+
+      <h4 className="ui inverted header">Процесс</h4>
+
+      <a className="ui basic label">Write</a>
+      <i className="arrow right icon" />
+      <a className="ui basic label">Save</a>
+      <i className="arrow right icon" />
+      <a className="ui basic label">Reload</a>
+      <i className="arrow right icon" />
+      <a className="ui basic label">Check</a>
     </div>
 )
 

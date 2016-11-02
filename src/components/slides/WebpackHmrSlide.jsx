@@ -2,10 +2,19 @@ import React, { PropTypes } from 'react'
 
 const WebpackHmrSlide = () => (
     <div>
-      Тут в презентацию врывается webpack с его hot module replacement! <br />
-      Работает это за счет того что render в React-е — чистая функция
-      и её новую реализацию можно просто перезапустить со старыми данными <br />
-      Write-Save-<i>hot module replacement</i>-<i>state stays untouched</i>-Check
+      <h3 className="ui inverted header">Webpack to the rescue!</h3>
+
+      <h4 className="ui inverted header">Процесс</h4>
+
+      <a className="ui basic label">Write</a>
+      <i className="arrow right icon" />
+      <a className="ui basic label">Save</a>
+      <i className="arrow right icon" />
+      <a className="ui basic label"><i>hot reloading</i></a>
+      <i className="arrow right icon" />
+      <a className="ui basic label"><i>state untouched</i></a>
+      <i className="arrow right icon" />
+      <a className="ui basic label">Check</a>
     </div>
 )
 

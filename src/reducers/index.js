@@ -3,7 +3,7 @@ import { GO_TO_NEXT_SLIDE, GO_TO_PREV_SLIDE, SET_SLIDES_COUNT,
   GO_TO_FIRST_SLIDE, GO_TO_LAST_SLIDE }
     from '../actions/index'
 
-const presentation = (state = { activeSlide: 0 }, action) => {
+const presentation = (state = { activeSlide: 0, slidesCount: 0 }, action) => {
   switch (action.type) {
     case GO_TO_NEXT_SLIDE:
       return { ...state,

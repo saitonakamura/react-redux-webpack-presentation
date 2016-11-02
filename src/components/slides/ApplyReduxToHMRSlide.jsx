@@ -2,13 +2,15 @@ import React, { PropTypes } from 'react'
 
 const ApplyReduxToHMRSlide = () => (
     <div>
-      <h3 className="ui header">Но как Redux нам поможет?</h3>
+      <h3 className="ui inverted header">Но как Redux нам поможет?</h3>
 
-      Самое важное для нас это то что состояние в нём меняется иммутабельно
-      и мы можем хранить каждое предыдущее состояние чтобы возвратиться к нему
-      и попробовать применить action еще раз <br/>
-      Также мы можем сериализовать наше состояние и сохранить его в оффлайн хранилище  <br/>
-      Или мы можем сериализовать состояние при ошибке в продакшене и загрузив его себе отдебажить
+      <ul className="ui bulleted list">
+        <li className="item">Централизованное изменение состояния — нет event hell</li>
+        <li className="item">Immutable — можем путешествовать во времени</li>
+        <li className="item">Immutable — можем не делать deep compare</li>
+        <li className="item">Сериализовать состояние и сохранить в оффлайн</li>
+        <li className="item">Сериализовать состояние при ошибке и отдебажить</li>
+      </ul>
     </div>
 )
 
